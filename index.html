@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>The Federal Bureau of Control</title>
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+    </head>
+
+    <body>
+        <main>
+            <header id="header">
+                <nav>
+                    <h2>The Federal Bureau of Control</h2>
+
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#information">About The Bureau</a></li>
+                        <li><a href="#employment">Employment</a></li>
+                    </ul>
+                </nav>
+
+                <h1>
+                    We are the Federal Bureau of Control
+                </h1>
+
+                <p>
+                    We protect <del class="redacted">the nation</del> from <del class="redacted">altered items and objects of power.</del> Led by Director <del class="redacted">Jesse Faden</del>, our mission
+                    is to <del class="redacted">collect, understand, and control altered items and objects of power.</del>
+                </p>
+            </header>
+
+            <section class="information-block">
+                <h2>About the Bureau</h2>
+
+                <p>The Federal Bureau of Control is headquarted in <del class="redacted">New York City</del>, occupying a building known internally as <del class="redacted">The Oldest House</del>. The Bureu consists
+                    of <del class="redacted">six</del> divisions, each fulfilling necessary tasks to the everyday running of the Bureau. For example, the <del class="redacted">containment</del> sector <del class="redacted">houses
+                    dangerous objects known as altered items and objects of power.</del> The employees situated in this sector perform very important tasks such as <del class="redacted">categorizing the altered items and objects of power,
+                    performing rituals to calm the altered items and objects of power, and much more.</del>
+            </section>
+
+            <section class="cta-group">
+                <h2>I Want to Join!</h2>
+
+                <p>We are always looking for qualified candidates to add to our roster of world-leading <del class="redacted">analysts</del>, <del class="redacted">investigators</del>, <del class="redacted">rangers</del>,
+                and <del class="redacted">technicians</del>. Please note that the position for a janitor's assistant was recently filled.</p>
+
+                <p>Are you ready to embark on a journey of <del class="redacted">knowledge</del> and <del class="redacted">control</del>? Click the button below to signify you're ready, and an automated test will determine
+                    your eligibility to work at the Federal Bureau of Control!</p>
+
+                <button class="cta-button" id="begin-employment-test">Begin Application Process</button>
+            </section>
+        </main>
+
+        <form class="staged-form unavailable-form" name="employment-form" id="employment-form">
+
+            <!-- Determine if this individual is eligible for employment -->
+
+            <fieldset class="form-page visible-page" id="form-page-one">
+                <legend>Authorization & Eligibility</legend>
+
+                <label for="work-authorization">Are you a current United States citizen or have authorization to work in the United States?</label>
+
+                <select id="work-authorization">
+                    <option value="affirmative" selected>Yes</option>
+                    <option value="negative">No</option>
+                </select>
+
+                <label for="selective-service">If applicable, did you register for Selective Service?</label>
+
+                <select id="selective-service">
+                    <option value="affirmative" selected>Yes</option>
+                    <option value="negative">No</option>
+                    <option value="not-applicable">Not Applicable</option>
+                </select>
+
+                <label for="consumption">Have you ever partaken / consumned in illegal substances (including marijuana, regardless of the legality in your state)?</label>
+
+                <select id="consumption">
+                    <option value="affirmative">Yes</option>
+                    <option value="negative" selected>No</option>
+                </select>
+
+                <label for="convictions">Have you ever been convicted of a felony?</label>
+
+                <select id="convictions">
+                    <option value="affirmative">Yes</option>
+                    <option value="negative" selected>No</option>
+                </select>
+            </fieldset>
+
+            <!-- Determine the Optimal Sector (Research, Investigations, Containment, or Maintenance) -->
+
+            <fieldset class="form-page" id="form-page-two">
+                <legend>Positioning</legend>
+
+                <label for="education-level">What is your highest level of education</label>
+
+                <select id="education-level">
+                    <option value="high-school" selected>High School / High School Equivalent</option>
+                    <option value="associates">Associates</option>
+                    <option value="bachelors">Bachelor's</option>
+                    <option value="masters">Master's</option>
+                    <option value="phd">PhD</option>
+                </select>
+
+                <label for="education-field">In what discipline is your highest degree?</label>
+
+                <select id="education-field">
+                    <option value="biology">Biology</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="mathematics">Mathematics</option>
+                    <option value="physics">Physics</option>
+                    <option value="not-applicable" selected>Not Applicable or Not Present</option>
+                </select>
+
+                <label for="previous-employment">Have you ever worked in an investigative field?</label>
+                <span class="extra-info">Some examples include, but are not limited to, a detective, private investigator, or lawyer.</span>
+
+                <select id="previous-employment">
+                    <option value="affirmative">Yes</option>
+                    <option value="negative" selected>No</option>
+                </select>
+
+                <label for="combat-experience">Do you have combat experience; for example, did you serve in a combat role in the military or as a special agent for another federal agency?</label>
+
+                <select id="combat-experience">
+                    <option value="affirmative" selected>Yes</option>
+                    <option value="negative">No</option>
+                </select>
+            </fieldset>
+
+            <!-- Depending on the results from the previous section, this is where the testing begins. -->
+
+            <fieldset class="form-page" id="form-page-three">
+
+            </fieldset>
+
+            <!-- Research Sector (Biology) -->
+            <!-- Research Sector (Chemistry) -->
+            <!-- Research Sector (Physics) -->
+            <!-- Research Sector (History) -->
+            <!-- Containment Sector -->
+            <!-- Rangers -->
+
+            <fieldset class="form-page form-page-disabled" id="form-page-unavailable">
+                <legend>No Available Openings</legend>
+
+                <h2>No Job Codes Recommended</h2>
+
+                <p>Unfortunately, based on your responses it seems that we have no available position for your qualifications. You are welcome to try again later.</p>
+            </fieldset>
+
+            <fieldset class="form-page form-page-disabled" id="form-page-failed">
+                <legend>You're a failure.</legend>
+
+                <h2>You have failed.</h2>
+
+                <p>Unfortunately, based on your responses it seems that you are unsuitable candidate for the Federal Bureau of Control. You are welcome to attempt the test again at a later
+                    time when you have developed a stronger skillset that fulfills the needs of our bureau.</p>
+                <p>You are reminded again that any secrets that may have divulged during the application process are in fact classified, and any divulgence of classified information is strictly
+                    prohibited.</p>
+            </fieldset>
+
+            <fieldset class="form-page form-page-disabled" id="form-page-ineligible">
+                <legend>You are not eligible.</legend>
+
+                <h2>You are not eligible.</h2>
+
+                <p>We are sorry, but your responses indicate that you are not eligible for employment with the Federal Bureau of Control.</p>
+                <p>You are welcome to try again in the future, should there be changes to employment requirements or federal government regulations.</p>
+                <p>As this is a secure government website, you are asked to leave.</p>
+            </fieldset>
+
+            <input type="submit" value="Continue">
+        </form>
+
+        <script src="js/employment-form.js"></script>
+    </body>
+</html>

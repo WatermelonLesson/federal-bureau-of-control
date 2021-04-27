@@ -1,0 +1,50 @@
+main.hidden {
+    display: none;
+}
+
+/* -- Flavour -- */
+del.redacted {
+    content-visibility: hidden;
+    background-color: #000;
+}
+
+del.redacted::-moz-selection {
+    background-color: #000;
+    content-visibility: hidden;
+}
+
+del.redacted::-webkit-selection {
+    background-color: #000;
+    content-visibility: hidden;
+}
+
+del.redacted::selection {
+    background-color: #000;
+    content-visibility: hidden;
+}
+
+/* -- Form -- */
+
+form {
+    display: grid;
+}
+
+form.unavailable-form {
+    display: none;
+}
+
+form > fieldset {
+    display: none;
+}
+
+form > fieldset > label {
+    font-size: 1rem;
+}
+
+form > fieldset > select > option {
+    font-size: 1rem;
+}
+
+form > fieldset.visible-page {
+    display: grid;
+}
